@@ -1,3 +1,9 @@
+
+{{
+  config(
+    materialized = 'view'
+    )
+}}
 WITH
 l AS (
     SELECT
